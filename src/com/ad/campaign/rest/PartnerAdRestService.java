@@ -1,4 +1,4 @@
-package com.ad.campaign.rest.copy;
+package com.ad.campaign.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
