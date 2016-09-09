@@ -12,10 +12,20 @@ public class PartnerAdService {
 	@Autowired
 	private PartnerAdDao partnerAdDao;
 
+	/**
+	 * Service methods to implement business 
+	 * @param partnerId
+	 * @return
+	 */
 	public PartnerAd getPartnerAd(String partnerId){
 		return partnerAdDao.getPartnerAd(partnerId);
 	}
 	
+	/**
+	 * Service methods to implement business 
+	 * @param partnerId
+	 * @return
+	 */
 	public String  savePartnerAd(PartnerAd partnerAd){
 		return partnerAdDao.savePartnerAd(partnerAd);
 	}
